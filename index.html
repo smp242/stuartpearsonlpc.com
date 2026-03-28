@@ -311,6 +311,26 @@
       border: none;
     }
 
+    /* ── SimplePractice widget overrides ── */
+    .spwidget-button-wrapper { text-align: left; margin-bottom: 2.5rem; }
+    .spwidget-button {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff !important;
+      border: none;
+      border-radius: 2px;
+      font-size: 0.85rem;
+      font-weight: normal;
+      font-family: system-ui, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.8rem 2.25rem;
+      transition: background 0.2s;
+    }
+    .spwidget-button:hover { background: #4a6659 !important; color: #fff !important; }
+    .spwidget-button:active { background: #3d574d !important; box-shadow: none !important; }
+
     /* ── Footer ── */
     footer {
       border-top: 1px solid var(--border);
@@ -462,6 +482,8 @@
 <section id="contact">
   <div class="section-inner">
     <div class="section-label">Contact</div>
+    <div class="spwidget-button-wrapper"><a href="https://stuart-pearson.clientsecure.me" class="spwidget-button" data-spwidget-scope-id="acf5b21f-4688-4cc3-9d38-e3482a58425e" data-spwidget-scope-uri="stuart-pearson" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-channel="embedded_widget" data-spwidget-type="Contact form" data-spwidget-contact data-spwidget-scope-global data-spwidget-autobind>Contact</a></div>
+
     <div class="contact-block">
       <div><a href="tel:4705942733">(470) 594-2733</a></div>
       <div><a href="mailto:therapist@stuartpearsonlpc.com">therapist@stuartpearsonlpc.com</a></div>
@@ -483,6 +505,8 @@
     </div>
   </div>
 </section>
+
+<script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
 
 <!-- ── Footer ── -->
 <footer>

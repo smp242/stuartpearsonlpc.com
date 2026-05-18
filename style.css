@@ -156,14 +156,22 @@ p:last-child { margin-bottom: 0; }
 /* ── About ── */
 .about-layout { display: grid; grid-template-columns: 210px 1fr; gap: 3.5rem; align-items: start; }
 
-.about-photo img {
+.about-photo img,
+.photo-placeholder {
   width: 210px;
   height: 260px;
-  object-fit: cover;
-  object-position: center top;
   border-radius: 4px;
   display: block;
   border: 1px solid var(--border);
+}
+
+.about-photo img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.photo-placeholder {
+  background: var(--accent-light);
 }
 
 .cred-list { list-style: none; margin-top: 0.25rem; }
@@ -355,7 +363,7 @@ footer {
   .section-inner { padding: 3.5rem 1.5rem; }
 
   .about-layout { grid-template-columns: 1fr; gap: 2rem; }
-  .about-photo img { width: 160px; height: 200px; margin: 0 auto; }
+  .about-photo img, .photo-placeholder { width: 160px; height: 200px; margin: 0 auto; }
 
   .process-step { grid-template-columns: 2.25rem 1fr; gap: 0.75rem; }
 

@@ -186,6 +186,29 @@ p:last-child { margin-bottom: 0; }
 
 .cred-list li::before { content: "—"; color: var(--accent); position: absolute; left: 0; }
 
+.pub-list {
+  padding-left: 1.4rem;
+  margin-top: 0.25rem;
+}
+
+.pub-list li {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.pub-list li:last-child { margin-bottom: 0; }
+
+.pub-list a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.pub-list a:hover { border-color: var(--accent); }
+
 /* ── Service Tiles ── */
 .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; }
 

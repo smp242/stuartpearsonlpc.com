@@ -376,6 +376,10 @@ footer {
   text-transform: uppercase;
 }
 
+.pt-seal {
+  margin-bottom: 1.5rem;
+}
+
 /* ── Mobile ── */
 @media (max-width: 640px) {
   nav ul { gap: 1rem; }

@@ -151,7 +151,7 @@ p:last-child { margin-bottom: 0; }
 
 .cta-btn:hover, .spwidget-button:hover { background: #4a6659 !important; color: #fff !important; }
 .spwidget-button:active { background: #3d574d !important; box-shadow: none !important; }
-.spwidget-button-wrapper { margin-bottom: 2.5rem; }
+.cta-btn-wrapper { margin-bottom: 2.5rem; }
 
 /* ── About ── */
 .about-layout { display: grid; grid-template-columns: 210px 1fr; gap: 3.5rem; align-items: start; }

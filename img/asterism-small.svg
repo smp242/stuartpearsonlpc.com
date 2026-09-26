@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 50" role="img" aria-label="Asterism">
+  <!-- Stuart Pearson, LPC. Asterism: the held pause.
+       Small cut: use below 20px.
+       Geometry: arm radius r=11; each asterisk is three rules of length 2r
+       crossing at their midpoints at 0/60/120 degrees (flat axis, no point up).
+       Three asterisks on an equilateral triangle of side 28 (2.55r), point up.
+       Centres: (32,12.83) (18,37.08) (46,37.08). Clear space r on all sides.
+       Arm weight 2.2, tip radius 2.7. Do not scale between optical sizes. -->
+  <g stroke="#5c7a6e" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M21 12.83 43 12.83"/>
+    <path d="M26.5 3.3 37.5 22.36"/>
+    <path d="M37.5 3.3 26.5 22.36"/>
+    <path d="M7 37.08 29 37.08"/>
+    <path d="M12.5 27.55 23.5 46.61"/>
+    <path d="M23.5 27.55 12.5 46.61"/>
+    <path d="M35 37.08 57 37.08"/>
+    <path d="M40.5 27.55 51.5 46.61"/>
+    <path d="M51.5 27.55 40.5 46.61"/>
+  </g>
+  <g fill="#5c7a6e">
+    <circle cx="21" cy="12.83" r="2.7"/>
+    <circle cx="43" cy="12.83" r="2.7"/>
+    <circle cx="26.5" cy="3.3" r="2.7"/>
+    <circle cx="37.5" cy="22.36" r="2.7"/>
+    <circle cx="37.5" cy="3.3" r="2.7"/>
+    <circle cx="26.5" cy="22.36" r="2.7"/>
+    <circle cx="7" cy="37.08" r="2.7"/>
+    <circle cx="29" cy="37.08" r="2.7"/>
+    <circle cx="12.5" cy="27.55" r="2.7"/>
+    <circle cx="23.5" cy="46.61" r="2.7"/>
+    <circle cx="23.5" cy="27.55" r="2.7"/>
+    <circle cx="12.5" cy="46.61" r="2.7"/>
+    <circle cx="35" cy="37.08" r="2.7"/>
+    <circle cx="57" cy="37.08" r="2.7"/>
+    <circle cx="40.5" cy="27.55" r="2.7"/>
+    <circle cx="51.5" cy="46.61" r="2.7"/>
+    <circle cx="51.5" cy="27.55" r="2.7"/>
+    <circle cx="40.5" cy="46.61" r="2.7"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Asterisk">
+  <!-- Stuart Pearson, LPC. Single asterisk: the small form of the asterism.
+       Small cut, optically corrected. This is the favicon.
+       Three rules crossing at 0/60/120 degrees, flat axis, arm radius 8.5.
+       Arm weight 2, tip radius 2.6. -->
+  <g stroke="#5c7a6e" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M3.5 12 20.5 12"/>
+    <path d="M7.75 4.64 16.25 19.36"/>
+    <path d="M16.25 4.64 7.75 19.36"/>
+  </g>
+  <g fill="#5c7a6e">
+    <circle cx="3.5" cy="12" r="2.6"/>
+    <circle cx="20.5" cy="12" r="2.6"/>
+    <circle cx="7.75" cy="4.64" r="2.6"/>
+    <circle cx="16.25" cy="19.36" r="2.6"/>
+    <circle cx="16.25" cy="4.64" r="2.6"/>
+    <circle cx="7.75" cy="19.36" r="2.6"/>
+  </g>
+</svg>

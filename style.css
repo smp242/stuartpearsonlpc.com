@@ -38,7 +38,14 @@ nav {
   letter-spacing: 0.04em;
   color: var(--text);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
 }
+
+/* The asterism. Text cut, for 20-48px. See _brand/GEOMETRY.md before
+   swapping this for another size: the cuts are not interchangeable. */
+.nav-mark { width: 26px; height: auto; flex: none; }
 
 nav ul { list-style: none; display: flex; gap: 2rem; }
 
